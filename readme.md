@@ -1,31 +1,23 @@
-# Simple Tailwind CSS Starter
+# Loopstudios
 
-This is an extremley simple setup to develop Tailwind projects. This will be used in my Tailwind From Scratch course.
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-## Usage
+## General info
+This is a simple test project with awesome responsible design.
 
-Install dependencies
+## Technologies
+Project is created with:
+* HTML
+* JavaScript
+* Tailwind
 
-```
-npm install
-```
-
-Run Tailwind CLI in watch mode
-
-```
-npm run dev
-```
-
-You can use tailwind classes in any .html files in the root directory
-
-Put any custom CSS that you may have in the **src/input.css** file
-
-Add any config values to the **tailwind.config.js** file
-
-To build once, run
+## Setup
+To run this project, install it locally using npm:
 
 ```
-npm run build
+$ npm install
+$ npm run watch
 ```
-
-You only need to deploy your html files and css/style.css
